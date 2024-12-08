@@ -1,0 +1,46 @@
+/* General styling */
+#body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('background-catalog.jpg');
+    background-size: cover;
+}
+
+/* Table styling */
+.category-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-shadow: 2px 4px 8px black;
+    background-image: none;
+    
+}
+
+.category-table td {
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+    box-shadow: 2px 4px 8px black;
+
+}
+
+.category-table td:hover {
+    
+    transform: scale(1.05);
+}
+
+/* Image styling */
+.category-table img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* Text styling */
+.category-table p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+

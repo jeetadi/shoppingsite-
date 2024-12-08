@@ -1,0 +1,15 @@
+h2{
+    text-align: center;
+    font-style: serif;
+   
+    
+}
+.P1, .P2, .P3{
+    font-size: medium;
+    color: gold;
+    
+}
+*{
+    background-image: url('ganesh.jpg');
+    background-size: cover;
+}

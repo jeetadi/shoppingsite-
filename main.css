@@ -1,0 +1,139 @@
+/* Global Styles */
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+/* Header */
+.header {
+    background-color: #C6E7FF;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 1500px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Section */
+.hero {
+    background: url('jewelry-hero.jpg') no-repeat center center/cover;
+    color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Product Catalog */
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #E2BFD9;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: #ffddae;
+    text-decoration: underline 2px #10375C ;
+    transition: 1s;
+    box-shadow: 1px 2px 2px black ;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Form */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #D4F6FF;
+    text-align: center;
+    padding: 20px;
+    margin:5px;
+}
+#rate{
+    font-size: x-large;
+    text-align: center;
+    background-image: url('goldsilver.jpg');
+    background-size: auto;
+}
+.header2 {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 8px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 80px; /* Adjust to desired logo size */
+    height: auto;
+}
+.product-card:hover{
+    box-shadow: 4px 8px 10px black ;
+}
+#home{
+    background-image: url('mainfront.jpg');
+    background-size: cover;
+    margin: 5px;
+
+}
+.tagline{
+    font-size: xx-large;
+    color: #E2BFD9;
+    text-shadow: 1px 1px 4px black;
+    transition: 2s;
+}
+.tagline:hover{
+    text-shadow: 2px 2px 8px darkcyan;
+}
+#vision{
+    background-image: url('vision.jpg');
+    background-size: cover;
+    color: #C6E7FF;
+    margin: 5px;
+}
